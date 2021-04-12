@@ -39,7 +39,7 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-cplusplus-line" />
+          <Techstack iconName="devicon-mysql-plain-wordmark" />
           <Techstack iconName="devicon-python-plain-wordmark " />
           <Techstack iconName="cib-pytorch" />
           <Techstack iconName="cib-tensorflow" />
