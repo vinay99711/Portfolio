@@ -19,7 +19,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://github.com/vinay99711"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-github"></i>
@@ -27,15 +27,15 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://www.facebook.com/vinay99711/"
                 style={{ color: "white" }}
               >
-                <i className="fab fa-twitter"></i>
+                <i className="fab fa-facebook"></i>
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.linkedin.com/in/vinaysingh08/"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-linkedin-in"></i>
@@ -43,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                href="https://www.instagram.com/vinaysingh789/"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-instagram"></i>
