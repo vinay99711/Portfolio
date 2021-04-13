@@ -78,6 +78,16 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/cooking"
+                onClick={() => updateExpanded(false)}
+              >
+                <i className="far fa-file-alt"></i> Cooking
+              </Nav.Link>
+            </Nav.Item>
+
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/vinay99711"
