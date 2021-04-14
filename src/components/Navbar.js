@@ -88,6 +88,8 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            
+
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/vinay99711"
@@ -97,6 +99,16 @@ function NavBar() {
                 <i className="fas fa-code-branch"></i>{" "}
                 <i className="far fa-star"></i>
               </Button>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                 Get in Touch
+              </Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

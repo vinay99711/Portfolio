@@ -5,8 +5,8 @@ import { Container, Row, Col } from "react-bootstrap";
 function Cooking() {
 
     return(
-    <Container>
-        <Row md={2} className="home-about-section" >
+    <Container fluid className="cook-section">
+        <Row md={3} >
         <img className="cooking-section" src={"https://scontent-dfw5-2.cdninstagram.com/v/t51.2885-15/e35/s480x480/165115285_296601618563706_2595530092847774083_n.jpg?tp=1&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=106&_nc_ohc=XEBVZMLPUaQAX91W6_Z&edm=ABfd0MgAAAAA&ccb=7-4&oh=dfa15d3bca7299208868cbc8122247cd&oe=609B3D5C&_nc_sid=7bff83"} alt="avatar" />
         <img className="cooking-section" src={"https://scontent-dfw5-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s750x750/165611243_881958679250121_4373474401640027146_n.jpg?tp=1&_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_cat=109&_nc_ohc=ufecqxtMSsUAX8BdcGs&edm=AP_V10EAAAAA&ccb=7-4&oh=31eaf87a1445ceb14587adee88688723&oe=60997E3C&_nc_sid=4f375eh"} alt="avatar" />
         <img className="cooking-section" src={"https://scontent-dfw5-2.cdninstagram.com/https://scontent-dfw5-2.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/165117368_272554421080538_2271644950267629189_n.jpg?tp=1&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=102&_nc_ohc=0ak6UUkk4vwAX_C7J6-&edm=AP_V10EAAAAA&ccb=7-4&oh=4faf9e93fa7da97b881c1dabbb664fb9&oe=609B26E9&_nc_sid=https://scontent-dfw5-2.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/165117368_272554421080538_2271644950267629189_n.jpg?tp=1&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=102&_nc_ohc=0ak6UUkk4vwAX_C7J6-&edm=AP_V10EAAAAA&ccb=7-4&oh=4faf9e93fa7da97b881c1dabbb664fb9&oe=609B26E9&_nc_sid=4f375e/t51.2885-15/sh0.08/e35/s640x640/165117368_272554421080538_2271644950267629189_n.jpg?tp=1&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=102&_nc_ohc=0ak6UUkk4vwAX_C7J6-&edm=AP_V10EAAAAA&ccb=7-4&oh=78c880565ae1d16747e093014282576d&oe=609B1A6D&_nc_sid=4f375e 640w,https://scontent-dfw5-2.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s750x750/165117368_272554421080538_2271644950267629189_n.jpg?tp=1&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=102&_nc_ohc=0ak6UUkk4vwAX_C7J6-&edm=AP_V10EAAAAA&ccb=7-4&oh=ee474af3d94fcfb57788b02d620782b2&oe=6099F669&_nc_sid=4f375e 750w,https://scontent-dfw5-2.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/165117368_272554421080538_2271644950267629189_n.jpg?tp=1&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_cat=102&_nc_ohc=0ak6UUkk4vwAX_C7J6-&edm=AP_V10EAAAAA&ccb=7-4&oh=4faf9e93fa7da97b881c1dabbb664fb9&oe=609B26E9&_nc_sid=4f375e"} alt="avatar" />
@@ -23,7 +23,5 @@ function Cooking() {
     </Container>
     )
   
-  }
-  
-
-  export default Cooking;
+}
+export default Cooking;

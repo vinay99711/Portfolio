@@ -8,6 +8,7 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/Resume";
 import Cooking from "./components/Cooking/Cooking";
+import Contact from "./components/Contact/Contact"
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
@@ -32,6 +33,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
           <Route path="/cooking" component={Cooking} />
+          <Route path="/contact" component={Contact} />
         </Switch>
         <Footer />
       </div>
